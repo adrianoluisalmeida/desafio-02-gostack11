@@ -24,11 +24,8 @@ Aplicação para armazenar repositórios em um portofólio, que permite a criaç
 
 
 
+### :memo: Licença  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
 
-<p align="center">
-  ### :memo: Licença  
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
-</p>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
