@@ -1,10 +1,3 @@
-<h4 align="center">
-</h4>
-
-
-
-<br>
-
 ### :rocket: Desafio 02: Conceitos do Node.js Bootcamp GoStack 11.0
 Neste desafio foi solicitada a criação de uma aplicação para aplicar os conceitos iniciais aprendidos sobre Node.JS.
 
@@ -24,7 +17,7 @@ Aplicação para armazenar repositórios em um portofólio, que permite a criaç
 
 
 
-### :memo: Licença  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
+### :memo: Licença 
 
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
