@@ -10,6 +10,9 @@ app.use(cors());
 
 const repositories = [];
 
+/**
+ * Get all repositories
+ */
 app.get("/repositories", (request, response) => {
   
   const { title } = request.query;
@@ -19,6 +22,9 @@ app.get("/repositories", (request, response) => {
   response.json(results);
 });
 
+/**
+ * Create repository
+ */
 app.post("/repositories", (request, response) => {
   const { title, url, techs } = request.body;
   
@@ -36,6 +42,11 @@ app.post("/repositories", (request, response) => {
 
 });
 
+/**
+ * Update repositories
+ *
+ * @param Int id
+ */
 app.put("/repositories/:id", (request, response) => {
   const { id } = request.params;
   const { title, url, techs } = request.body;
@@ -59,6 +70,11 @@ app.put("/repositories/:id", (request, response) => {
   return response.json(repository);
 });
 
+/**
+ * Delete repository
+ * 
+ * @param Int id
+ */
 app.delete("/repositories/:id", (request, response) => {
   const { id } = request.params;
 
@@ -73,6 +89,11 @@ app.delete("/repositories/:id", (request, response) => {
   return response.status(204).send();
 });
 
+/**
+ * Like repository
+ * 
+ * @param Int id
+ */
 app.post("/repositories/:id/like", (request, response) => {
   const { id } = request.params;
   
