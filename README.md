@@ -1,10 +1,7 @@
 <h4 align="center">
 </h4>
 
-<p align="center">
-  
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
-</p>
+
 
 <br>
 
@@ -26,7 +23,12 @@ Neste desafio foi solicitada a criação de uma aplicação para aplicar os conc
 Aplicação para armazenar repositórios em um portofólio, que permite a criação, listagem, atualização e remoção de repositórios, e além disso permite que os repositórios recebam "likes".
 
 
-### :memo: Licença
+
+
+<p align="center">
+  ### :memo: Licença  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-red">
+</p>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
